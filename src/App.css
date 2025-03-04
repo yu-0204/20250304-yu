@@ -1,0 +1,99 @@
+/* 全局樣式，設定 box-sizing 和清除 margin、padding */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%; /* 確保 HTML 和 body 佔滿視窗 */
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* 讓頁面內容上下排列 */
+  justify-content: center; /* 讓內容垂直居中 */
+  align-items: center;
+  height: 100vh; /* 頁面高度占滿視窗 */
+  background-color: #f4f4f9;
+  overflow: hidden; /* 隱藏滾動條 */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* 標題與表單之間有點距離 */
+}
+
+/* 登入表單樣式 */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; /* 確保 padding 和邊框不影響總大小 */
+}
+
+/* 表單欄位樣式 */
+div {
+  margin-bottom: 15px;
+}
+
+/* 標籤樣式 */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* 輸入框樣式 */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; /* 確保內邊距和邊框包含在元素的總寬高內 */
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* 登入按鈕樣式 */
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* 顯示訊息樣式 */
+p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p:first-of-type {
+  color: #4CAF50;
+}
+
+p:last-of-type {
+  color: red;
+}
