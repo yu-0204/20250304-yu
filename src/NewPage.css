@@ -1,0 +1,17 @@
+/* NewPage.css */
+.new-page-container {
+    margin-top: 50px;  /* 增加上方空間，避免緊貼頁面上方 */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

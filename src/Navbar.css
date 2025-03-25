@@ -1,0 +1,40 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;  /* 讓 navbar 固定在頁面頂部 */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;  /* 確保 navbar 在其他元素之上 */
+  }
+  
+  .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    padding: 10px 20px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #f0a500;
+  }
+  
+  /* 讓頁面內容不被固定的 navbar 遮擋 */
+  body {
+    padding-top: 60px;  /* navbar 高度 + 一點間隙 */
+  }
+  

@@ -17,13 +17,12 @@ html, body {
   align-items: center;
   height: 100vh; /* 頁面高度占滿視窗 */
   background-color: #f4f4f9;
-  overflow: hidden; /* 隱藏滾動條 */
 }
 
 h2 {
   text-align: center;
   color: #333;
-  margin-bottom: 20px; /* 標題與表單之間有點距離 */
+  margin-bottom: 10px; /* 標題與表單之間有點距離 */
 }
 
 /* 登入表單樣式 */
